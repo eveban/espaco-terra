@@ -3,8 +3,10 @@ import { Image, TextInput } from 'react-native';
 
 export const Container = styled.View`
   flex: 1;
-  background-color: #008956;
-  padding: 20px;
+  background-color: #495b43;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 `;
 export const HeaderContainer = styled.View`
   width: auto;
@@ -51,6 +53,11 @@ export const InputText = styled(TextInput)`
   margin-left: 10px;
 `;
 
+export const ContainerScrollView = styled.View`
+  flex: 1;
+  border: 1px solid #fff;
+`;
+
 export const CategoriesContainerText = styled.View`
   width: auto;
 `;
@@ -62,9 +69,9 @@ export const CategoriesText = styled.Text`
 `;
 
 export const CategoriesContainer = styled.View`
+  flex: 1;
   margin-top: 16px;
 
-  flex: 1;
   flex-direction: row;
   justify-content: space-between;
 `;
@@ -91,7 +98,7 @@ export const CategoryButtonFirst = styled.TouchableOpacity`
 `;
 export const ImageButton = styled.View`
   height: 60%;
-  background-color: #c9fedc;
+  background-color: rgba(73, 91, 67, 0.2);
 
   align-items: center;
   justify-content: flex-end;
@@ -123,9 +130,8 @@ export const TextLegendDescription = styled.Text`
 `;
 
 export const NavigationContainer = styled.View`
-  /* width: auto; */
+  width: 100%;
   height: 64px;
-  margin-top: 20px;
   border-radius: 32px;
   background: #fff;
   padding: 0 40px;
@@ -133,4 +139,7 @@ export const NavigationContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  align-self: flex-end;
+
+  margin-bottom: 20px;
 `;

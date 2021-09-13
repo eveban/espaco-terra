@@ -4,7 +4,7 @@ import { FlatList, TouchableOpacity, TextInput } from 'react-native';
 
 export const Background = styled.View`
   flex: 1;
-  background-color: #008956;
+  background-color: #495b43;
 `;
 export const Container = styled.View`
   padding: 0 20px;
@@ -34,8 +34,9 @@ export const ContainerAgreements = styled(TouchableOpacity)`
   padding: 5px 40px;
   margin: 5px 10px;
   border-radius: 38px;
-  /* border: 1px solid; */
-  /* elevation: 1; */
+  background: #fff;
+  border: 1px solid rgba(0, 137, 86, 0.4);
+  elevation: 5;
 `;
 
 export const Name = styled.Text`

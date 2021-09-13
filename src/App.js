@@ -25,7 +25,7 @@ export default function App() {
       <StatusBar
         barStyle="light-content"
         translucent
-        backgroundColor="#008956"
+        backgroundColor="#495b43"
         networkActivityIndicatorVisible
         animated
       />

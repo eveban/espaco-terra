@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Text, TouchableOpacity } from 'react-native';
+import { TouchableOpacity } from 'react-native';
 import moment from 'moment';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Header from '../../components/Header';
@@ -60,9 +60,6 @@ const Agreement = () => {
               <Ionicons name="search" size={22} style={{ color: '#b0b0b0' }} />
             </TouchableOpacity>
           </InputContainer>
-          {/* <TouchableOpacity onPress={handleSearchAgremeent}>
-            <Icon name="search" size={30} />
-          </TouchableOpacity> */}
         </Container>
 
         <ListContainer>
@@ -75,11 +72,11 @@ const Agreement = () => {
               <ContainerAgreements
                 key={String(item.id)}
                 onPress={() => {}}
-                style={
-                  item.status === 'Quitado'
-                    ? { backgroundColor: '#EAFAF1', borderColor: '#ABEBC6' }
-                    : { backgroundColor: '#F9EBEA', borderColor: '#E6B0AA' }
-                }
+                // style={
+                //   item.status === 'Quitado'
+                //     ? { backgroundColor: '#EAFAF1', borderColor: '#ABEBC6' }
+                //     : { backgroundColor: '#F9EBEA', borderColor: '#E6B0AA' }
+                // }
               >
                 <ContainerDateValue>
                   <ContainerDateValue2>

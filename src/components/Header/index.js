@@ -17,7 +17,7 @@ const Header = ({ title }) => {
         <Feather name="arrow-left" size={24} color="#FFF" />
       </BorderlessButton>
       <HeaderTitle>{title}</HeaderTitle>
-      <Feather name="arrow-right" size={24} color="#008956" />
+      <Feather name="arrow-right" size={24} color="#495b43" />
     </Container>
   );
 };
